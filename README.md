@@ -40,7 +40,7 @@ With the results of the predictive process monitoring script, we can try several
 
 ### Single Mechanism Prescriptive Process Monitoring Systems
 
-### Hierachical Thresholding based Prescriptive Process Monitoring Systems
+### Hierarchical Thresholding based Prescriptive Process Monitoring Systems
 
 
 ## R-Scripts
