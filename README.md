@@ -14,9 +14,7 @@ https://github.com/TaXxER/AlarmBasedProcessPrediction
 The foundations of a prescriptive process monitoring systems are the predictions made by a predictive process monitoring systems. To get these results, we apply a two-step approach. First, we use hyperparameter optimization to ensure high quality results, this can be done with different scripts, depending on the choosen machine learning algorithm:
 
 ```
-python optimize_params_rf.py <dataset_name> <output_dir>
-python optimize_params_lgbm.py <dataset_name> <output_dir>
-python optimize_params_xgboost.py <dataset_name> <output_dir>
+python optimize_params_<classifier>.py <dataset_name> <output_dir>
 ```
 
 For the parameters the following applies:
