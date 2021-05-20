@@ -11,7 +11,7 @@ https://github.com/TaXxER/AlarmBasedProcessPrediction
 
 ## Predictive Process Monitoring Scripts
 
-The foundations of a prescriptive process monitoring systems are the predictions made by a predictive process monitoring systems. To get these results, we apply a two-step approach. First, we use hyperparameter optimazation to ensure high quality results, this can be done with different scripts, depending on the choosen machine learning algorithm:
+The foundations of a prescriptive process monitoring systems are the predictions made by a predictive process monitoring systems. To get these results, we apply a two-step approach. First, we use hyperparameter optimization to ensure high quality results, this can be done with different scripts, depending on the choosen machine learning algorithm:
 
 ```
 python optimize_params_rf.py <dataset_name> <output_dir>
