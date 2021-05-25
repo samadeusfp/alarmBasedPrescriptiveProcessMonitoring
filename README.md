@@ -40,6 +40,7 @@ With the results of the predictive process monitoring script, we can try several
 - optimize_threshold.py - Is the basic thresholding system, with one threshold for the probability. This scriptes is the script to train the system, with test_optimized_threshold.py being the corresponding script to generate the results
 - optimize_fire_delay.py - Is the thresholding system using a probability threshold and a fire delay threshold. This scriptes is the script to train the system, with test_fire_delay.py being the corresponding script to generate the results
 
+The scripts optimize_threshold_compensation.py and optimize_threshold_effectiveness.py are scripts for experimental purposes and based on optimize_threshold.py.
 
 ### Hierarchical Thresholding based Prescriptive Process Monitoring Systems
 
