@@ -37,6 +37,8 @@ python write_<classifier>_predictions.py <dataset_name> <optimal_params_file> <o
 With the results of the predictive process monitoring script, we can try several prescriptive process monitoring systems. This is also split up into two steps. One step training the mechanism and another step generating the results from the mechnaism. 
 
 ### Single Mechanism Prescriptive Process Monitoring Systems
+- optimize_threshold.py - Is the basic thresholding system, with one threshold for the probability. This scriptes is the script to train the system, with test_optimized_threshold.py being the corresponding script to generate the results
+
 
 ### Hierarchical Thresholding based Prescriptive Process Monitoring Systems
 
