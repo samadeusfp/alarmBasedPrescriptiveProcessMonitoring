@@ -37,6 +37,8 @@ python write_<classifier>_predictions.py <dataset_name> <optimal_params_file> <o
 With the results of the predictive process monitoring script, we can try several prescriptive process monitoring systems. This is also split up into two steps. One step training the mechanism and another step generating the results from the mechnaism. 
 
 ### Single Mechanism Prescriptive Process Monitoring Systems
+The following scripts implement systems with one potential alarm:
+
 - optimize_threshold.py - Is the basic thresholding system, with one threshold for the probability. This scriptes is the script to train the system, with test_optimized_threshold.py being the corresponding script to generate the results
 - optimize_fire_delay.py - Is the thresholding system using a probability threshold and a fire delay threshold. This scriptes is the script to train the system, with test_fire_delay.py being the corresponding script to generate the results
 - optimize_2_thresholds_prefix.py - Is the thresholding system with 2 thresholds depending on the prefix. The prefix that inflicts the change between both thresholds is trained. The corresponding script to run the system is test_2_threholds_prefix.py 
@@ -47,6 +49,10 @@ With the results of the predictive process monitoring script, we can try several
 The scripts optimize_threshold_compensation.py and optimize_threshold_effectiveness.py are scripts for experimental purposes and based on optimize_threshold.py.
 
 ### Hierarchical Thresholding based Prescriptive Process Monitoring Systems
+To handle multiple potential alarms, we implemented the following systems:
+- Basic Hierarchical Thresholding
+- Hierarchical Thresholding with fire delay and multiple prefix-dependent thresholds
+
 
 ##  Data Management Scripts
 
