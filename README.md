@@ -42,6 +42,7 @@ With the results of the predictive process monitoring script, we can try several
 - optimize_2_thresholds_prefix.py - Is the thresholding system with 2 thresholds depending on the prefix. The prefix that inflicts the change between both thresholds is trained. The corresponding script to run the system is test_2_threholds_prefix.py 
 - test_2_thresholds_set_prefixes.py - Sets 2 different threshold of the 2 first prefixes. The last threshold is valid for all following prefixes. test_2_thresholds_set_prefixes.py generates the respective results
 - optimize_3_thresholds_prefix.py - Sets 2 different threshold of the 3 first prefixes. The last threshold is valid for all following prefixes. test_3_thresholds_prefix.py generates the respective results
+- optimize_fire_delay_prefix_length_dependent_threshold.py - Combines the ideas behind the systems "optimize_fire_delay.py" and "optimize_2_thresholds_prefix.py". It trains 2 thresholds, that depend on the prefix length, and a fire delay parameter. The script test_fire_delay_prefix_length_dependent_threshold.py is the corresponding script to generate the results
 
 The scripts optimize_threshold_compensation.py and optimize_threshold_effectiveness.py are scripts for experimental purposes and based on optimize_threshold.py.
 
