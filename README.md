@@ -53,6 +53,12 @@ To handle multiple potential alarms, we implemented the following systems:
 - Basic Hierarchical Thresholding
 - Hierarchical Thresholding with fire delay and multiple prefix-dependent thresholds
 
+To execute these systems it is important to first run a training set for each of the thresholding systems with one alarm independently, these are implemented in the following scripts for the basic hierarchical thresholding systems:
+- optimize_alarm1_threshold_compensation.py
+- optimize_alarm2_threshold_compensation.py
+
+Afterwardst the script "optimize_alarm2_vs_alarm1_hierachical.py" is executed to finialize the training of the basic hierarchical thresholding system.
+
 
 ##  Data Management Scripts
 
