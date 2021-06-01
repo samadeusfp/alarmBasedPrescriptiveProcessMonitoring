@@ -57,7 +57,7 @@ To execute these systems it is important to first run a training set for each of
 - optimize_alarm1_threshold_compensation.py
 - optimize_alarm2_threshold_compensation.py
 
-Afterwardst the script "optimize_alarm2_vs_alarm1_hierachical.py" is executed to finialize the training of the basic hierarchical thresholding system.
+Afterwards the script "optimize_alarm2_vs_alarm1_hierachical.py" is executed to finialize the training of the basic hierarchical thresholding system.
 
 
 ##  Data Management Scripts
